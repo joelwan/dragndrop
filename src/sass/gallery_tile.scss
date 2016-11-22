@@ -1,0 +1,32 @@
+.tile {
+  position: relative;
+  padding: 10px 0 0 10px;
+  float: left;
+  border: 1px solid transparent;
+  z-index: 1;
+
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out; 
+  -moz-transition: all .3s ease-in-out; 
+  -o-transition: all .3s ease-in-out; 
+
+  width:300px;
+  
+  img {
+    width: 100%;
+  }
+
+  &.moving {
+    border: 1px solid white;
+    position:relative;
+    z-index: 10;
+    
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none; 
+    -o-transition: none;
+    img {
+      opacity: 0;
+    }
+  }
+}
