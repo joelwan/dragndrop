@@ -4,8 +4,8 @@
 
 Perform the following commands:
 
-  npm install
-  npm start
+* npm install
+* npm start
 
 View the site at http://127.0.0.1:8888 after it builds.
 
@@ -13,6 +13,6 @@ View the site at http://127.0.0.1:8888 after it builds.
 
 Execute:
 
-  npm run build
+* npm run build
 
 The site will be compiled using the alternate webpack config (webpack.production.config.js).
